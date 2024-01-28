@@ -1,0 +1,112 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, "Courier New", Courier, monospace;
+}
+
+header {
+    background-color: #1F2937;
+    padding: 0 100px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.h-link {
+    margin: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 2px;
+}
+
+.first-container {
+    background-color: #1F2937;
+    display: flex;
+    padding: 0 80px;
+}
+
+.left-section, .right-section {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 16px;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+button {
+    width: 78px;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    padding: 18px 100px;
+}
+
+.card {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 150px;
+    border-radius: 8px;
+    border-color: #3882F6;
+    border-width: 8px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 70px 100px;
+}
+
+
+.cta {
+    display: flex;
+    background-color: #3882F6;
+    padding: 48px;
+    margin: 78px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #1F2937;
+    font-size: small;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 4px;
+}
